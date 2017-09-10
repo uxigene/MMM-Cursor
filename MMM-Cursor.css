@@ -1,0 +1,7 @@
+html {
+    cursor: default;
+}
+
+html.inactive {
+    cursor: none !important;
+}

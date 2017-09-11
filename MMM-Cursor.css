@@ -3,5 +3,5 @@ html {
 }
 
 html.inactive {
-    cursor: none !important;
+    cursor: none;
 }

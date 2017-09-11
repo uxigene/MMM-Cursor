@@ -1,0 +1,18 @@
+{
+  "name": "MMM-Cursor",
+  "version": "0.1.0",
+  "description": "Cursor show/hide module for MagicMirror²",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MarinescuEvghenii/MMM-Cursor.git"
+  },
+  "keywords": [
+    "MagicMirror²", "Magic Mirror", "Magic", "Mirror", "Module", "Cursor", "MMM-Cursor"
+  ],
+  "author": "Marinescu Evghenii <marinescu.evghenii@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MarinescuEvghenii/MMM-Cursor/issues"
+  },
+  "homepage": "https://github.com/MarinescuEvghenii/MMM-Cursor#mmm-cursor"
+}

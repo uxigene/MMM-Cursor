@@ -44,8 +44,8 @@ The following property can be configured:
 	<tbody>
 		<tr>
 			<td><code>timeout</code></td>
-			<td>Delay time in ms.
-				<br><b>Default value:</b> <code>1000</code>
+			<td>
+				Delay time in ms. <b>Default value:</b> <code>1000</code>
 			</td>
 		</tr>
 	</tbody>

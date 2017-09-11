@@ -1,5 +1,5 @@
 # MMM-Cursor
-Cursor show/hide module for MagicMirror²
+Cursor show/hide module for MagicMirror². Displays cursor when user moves mouse and hide after delay.
 
 ## Installation
 

@@ -19,10 +19,8 @@ Module.register("MMM-Cursor", {
 
 	start: function() {
 		this.config = Object.assign({}, this.defaults, this.config);
-
 		this.bind();
-		this.hideCursor();
-
+		
 		Log.info("Starting module: " + this.name);
 	},
 
@@ -36,14 +34,14 @@ Module.register("MMM-Cursor", {
 
 	hideCursor: function() {
 		var el = document.querySelector('html');
-		el.classList.add("inactive");
+		el.classList.remove("cursor-show");
 
 		this.cursorVisible = false;
 	},
 
 	showCursor: function() {
 		var el = document.querySelector('html');
-		el.classList.remove("inactive");
+		el.classList.add("cursor-show");
 
 		this.cursorVisible = true;
 	},

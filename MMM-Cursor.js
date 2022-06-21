@@ -60,6 +60,6 @@ Module.register("MMM-Cursor", {
 
 		self.timer = setTimeout(function() {
 			self.hideCursor();
-		}, self.defaults.timeout);
+		}, self.config.timeout);
 	}
 });

@@ -3,7 +3,7 @@
 /* Magic Mirror
  * Module: MMM-Cursor
  *
- * By Evghenii Marinescu https://github.com/MarinescuEvghenii/
+ * By Evghenii Marinescu https://github.com/uxigene/
  * MIT Licensed.
  */
 

@@ -10,7 +10,7 @@ cd ~/MagicMirror/modules
 
 Clone this repository:
 ````
-git clone https://github.com/MarinescuEvghenii/MMM-Cursor.git
+git clone https://github.com/uxigene/MMM-Cursor
 ````
 
 Configure the module in your `config.js` file.

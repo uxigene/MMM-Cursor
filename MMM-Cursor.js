@@ -1,6 +1,6 @@
 /* global Module */
 
-/* Magic Mirror
+/* MagicMirror²
  * Module: MMM-Cursor
  *
  * By Evghenii Marinescu https://github.com/uxigene/

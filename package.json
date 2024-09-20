@@ -1,18 +1,25 @@
 {
-  "name": "MMM-Cursor",
+  "name": "mmm-cursor",
   "version": "0.1.0",
-  "description": "Cursor show/hide module for MagicMirror²",
+  "description": "Cursor show/hide module for MagicMirror².",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MarinescuEvghenii/MMM-Cursor.git"
+    "url": "git+https://github.com/uxigene/MMM-Cursor.git"
   },
   "keywords": [
-    "MagicMirror²", "Magic Mirror", "Magic", "Mirror", "Module", "Cursor", "MMM-Cursor"
+    "MagicMirror²",
+    "MagicMirror",
+    "Module",
+    "Cursor"
   ],
   "author": "Marinescu Evghenii <marinescu.evghenii@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MarinescuEvghenii/MMM-Cursor/issues"
+    "url": "https://github.com/uxigene/MMM-Cursor/issues"
   },
-  "homepage": "https://github.com/MarinescuEvghenii/MMM-Cursor#mmm-cursor"
+  "homepage": "https://github.com/uxigene/MMM-Cursor#mmm-cursor",
+  "main": "MMM-Cursor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }

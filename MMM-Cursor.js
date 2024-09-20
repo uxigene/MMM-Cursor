@@ -1,9 +1,9 @@
 /* global Module */
 
-/* Magic Mirror
+/* MagicMirror²
  * Module: MMM-Cursor
  *
- * By Evghenii Marinescu https://github.com/MarinescuEvghenii/
+ * By Evghenii Marinescu https://github.com/uxigene/
  * MIT Licensed.
  */
 
@@ -13,52 +13,52 @@ Module.register("MMM-Cursor", {
 		timeout: 1000
 	},
 
-	getStyles: function() {
+	getStyles () {
 		return ["MMM-Cursor.css"];
 	},
 
-	start: function() {
-		this.config = Object.assign({}, this.defaults, this.config);
+	start () {
+		this.config = {...this.defaults, ...this.config};
 		this.bind();
-		
-		Log.info("Starting module: " + this.name);
+
+		Log.info(`Starting module: ${this.name}`);
 	},
 
-	bind: function() {
-		var self = this;
+	bind () {
+		const self = this;
 
-		document.addEventListener("mousemove", function() {
+		document.addEventListener("mousemove", () => {
 			self.onMouseMove();
 		});
 	},
 
-	hideCursor: function() {
-		var el = document.querySelector('html');
+	hideCursor () {
+		const el = document.querySelector("html");
 		el.classList.remove("cursor-show");
 
 		this.cursorVisible = false;
 	},
 
-	showCursor: function() {
-		var el = document.querySelector('html');
+	showCursor () {
+		const el = document.querySelector("html");
 		el.classList.add("cursor-show");
 
 		this.cursorVisible = true;
 	},
 
-	onMouseMove: function() {
-		var self = this;
+	onMouseMove () {
+		const self = this;
 
-		if(self.timer) {
+		if (self.timer) {
 			clearTimeout(self.timer);
 			delete self.timer;
 		}
 
-		if(!self.cursorVisible) {
+		if (!self.cursorVisible) {
 			self.showCursor();
 		}
 
-		self.timer = setTimeout(function() {
+		self.timer = setTimeout(() => {
 			self.hideCursor();
 		}, self.config.timeout);
 	}

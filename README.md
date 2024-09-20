@@ -2,6 +2,10 @@
 
 Cursor show/hide module for [MagicMirror²](https://github.com/MagicMirrorOrg/MagicMirror). Displays cursor when user moves mouse and hide after delay.
 
+## Screenshot
+
+![screenshot](screenshot.png)
+
 ## Installation
 
 In your terminal, go to your MagicMirror's module folder:
@@ -18,17 +22,17 @@ git clone https://github.com/uxigene/MMM-Cursor
 
 Configure the module in your `config.js` file.
 
-## Using the module
+## Configuration
 
 To use this module, add it to the modules array in the `config/config.js` file:
 
 ```javascript
-  {
-    module: "MMM-Cursor",
-    config: {
-      // See 'Configuration options' for more information.
-    }
-  },
+    {
+      module: "MMM-Cursor",
+      config: {
+        timeout: 1500
+      }
+    },
 ```
 
 ## Configuration options
